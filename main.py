@@ -534,6 +534,9 @@ class ProjectionSlide(ThreeDSlide):
         self.play(FadeOut(*self.mobjects))
 
 
+# ═════════════════════════════════════
+# 8. PROJEKTIONSMATRIX
+# ═════════════════════════════════════
 class ProjectionDiagramSlide(ThreeDSlide):
     def construct(self):
         scale = 2.5
@@ -669,7 +672,7 @@ class ProjectionDiagramSlide(ThreeDSlide):
 
 
 # ═════════════════════════════════════
-# 8. PROJEKTIONSMATRIX
+# 8.1 PROJEKTIONSMATRIX
 # ═════════════════════════════════════
 class ProjectionMatrixSlide(ThreeDSlide):
     def construct(self):
@@ -802,7 +805,7 @@ class ProjectionMatrixSlide(ThreeDSlide):
 
 
 # ═════════════════════════════════════
-# 8.1 PROJEKTIONSMATRIX
+# 8.2 PROJEKTIONSMATRIX
 # ═════════════════════════════════════
 class ProjectionZDerivationSlide(ThreeDSlide):
     def construct(self):
@@ -927,7 +930,7 @@ class ProjectionZDerivationSlide(ThreeDSlide):
 
 
 # ═════════════════════════════════════
-# 8.2 PROJEKTIONSMATRIX
+# 8.3 PROJEKTIONSMATRIX
 # ═════════════════════════════════════
 class ProjectionSolveSystemSlide(ThreeDSlide):
     def construct(self):

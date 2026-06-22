@@ -17,7 +17,7 @@ Linux: source .venv/bin/activate
 
 Windows: .venv\Scripts\Activate.ps1
 
-pip install manim manim-slides
+pip install manim manim-slides PySide6
 
 ## Build
 Linux: source .venv/bin/activate

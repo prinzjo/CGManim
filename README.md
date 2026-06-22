@@ -15,14 +15,14 @@ python3 -m venv .venv
 
 Linux: source .venv/bin/activate
 
-Windows: .venv\Scripts\Activate.ps1
+Windows: .venv\Scripts\activate
 
 pip install manim manim-slides PySide6
 
 ## Build
 Linux: source .venv/bin/activate
 
-Windows: .venv\Scripts\Activate.ps1
+Windows: .venv\Scripts\activate
 
 manim-slides render main.py ComputergrafikPraesentation
 
